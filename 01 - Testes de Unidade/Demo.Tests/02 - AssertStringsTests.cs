@@ -11,10 +11,10 @@ namespace Demo.Tests
             var sut = new StringsTools();
 
             // Act
-            var nomeCompleto = sut.Unir("Eduardo", "Pires");
+            var nomeCompleto = sut.Unir("William", "Breda");
 
             // Assert
-            Assert.Equal("Eduardo Pires", nomeCompleto);
+            Assert.Equal("William Breda", nomeCompleto);
         }
 
 
